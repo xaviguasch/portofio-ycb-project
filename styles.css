@@ -31,12 +31,28 @@ nav {
 
 section {
   width: 100%;
-  height: 100px;
-  background-image: linear-gradient(to right, red, yellow);
-  /* background-color: #3b3bb6; */
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 0 0 0;
+}
+
+.about-me {
+  width: 300px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  max-width: 300px;
+  margin: 30px;
+}
+
+#main {
+  box-shadow: 2px 2px 5px grey;
 }
 
 .hero {
